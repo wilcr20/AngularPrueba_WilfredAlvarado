@@ -29,3 +29,12 @@ small {
   font-weight: bold;
   color: red;
 }
+
+tr:hover {
+  background-color: #ccc;
+  color: black;
+}
+tr td:hover {
+  background-color: #ccc;
+  color: black;
+}
