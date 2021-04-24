@@ -3,9 +3,7 @@ import { Person } from "./Modelos/Person";
 
 @Component({
   selector: "hello",
-  template: `
-    <h1>Hello {{ name }}!</h1>
-  `,
+  template: ``,
   styles: [
     `
       h1 {
@@ -16,19 +14,4 @@ import { Person } from "./Modelos/Person";
 })
 export class HelloComponent {
   @Input() name: string;
-
-  listPerson: Person[] = [
-    {
-      Name: "Sandra",
-      LastName: "Lopez"
-    },
-    {
-      Name: "Andrea",
-      LastName: "Solis"
-    },
-    {
-      Name: "Roberto",
-      LastName: "Sanchez"
-    }
-  ];
 }
